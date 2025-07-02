@@ -73,16 +73,17 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 npm run build
 
 # Serve the production build locally
-npx serve -s build
+npx serve -s dist
 ```
 
-The build folder contains all files needed for deployment.
+The `dist` folder contains all files needed for deployment.
 
 ## Deployment
 
 ### Static Hosting
 
-Deploy the `build` folder to any static hosting service:
+Deploy the `dist` folder to any static hosting service:
+
 - GitHub Pages
 - Netlify
 - Vercel
