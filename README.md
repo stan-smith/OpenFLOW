@@ -46,7 +46,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ### Creating Diagrams
 
-1. **Add Items**: Drag and drop components from the library onto the canvas
+1. **Add Items**: Press the “+” button on the top right menu, the library of components will appear on the left. Drag and drop components from the library onto the canvas
 2. **Connect Items**: Use connectors to show relationships between components
 3. **Customize**: Change colors, labels, and properties of items
 4. **Navigate**: Pan and zoom to work on different areas
