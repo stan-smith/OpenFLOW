@@ -14,12 +14,17 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint src",
+    "lint:fix": "eslint src --fix",
+    "prepare": "husky"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
+  "lint-staged": {
+    "src/**/*.tsx": [
+      "eslint"
+    ],
+    "src/**/*.ts": [
+      "eslint"
     ]
   },
   "browserslist": {
@@ -35,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "@eslint/js": "^9.30.1",
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@testing-library/react": "^16.3.0",
@@ -43,6 +49,12 @@
     "@types/node": "^16.18.126",
     "@types/react": "^18.3.23",
     "@types/react-dom": "^18.3.7",
-    "typescript": "^4.9.5"
+    "eslint": "^8.57.1",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
+    "typescript": "^4.9.5",
+    "typescript-eslint": "^8.35.1"
   }
 }
