@@ -2,6 +2,7 @@
   "name": "fossflow-local",
   "version": "1.0.0",
   "private": true,
+  "bin": "cli.js",
   "dependencies": {
     "@isoflow/isopacks": "^0.0.10",
     "fossflow": "^1.0.5",
